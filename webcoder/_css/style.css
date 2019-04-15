@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f4f4f4;
+	line-height: 1.6em;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header {
+	background-color: darkblue;
+	color: #fff;
+}
+
+#navbar {
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul {
+	padding: 0px;
+	list-style: none;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase {
+	background: url('../_images/bg-showcase.jpg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h2 {
+	color: #000;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 45px;
+}
+
+#welcome-section {
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar {
+	margin-top: 0;
+	float: right;
+	width: 30%;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+#welcome-section h2, #sidebar h2 {
+	margin-top: 0;
+}
+
+#main-footer {
+	margin-top: 40px;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	#main-header h1 {
+		text-align: center;
+	}
+
+	#showcase h2 {
+		font-size: 40px;
+	}
+
+	#navbar a {
+		font-size: 16px;
+	}
+
+	#welcome-section {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+		padding: 0 30px;
+	}
+}
